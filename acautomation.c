@@ -2,7 +2,7 @@
 #include <string.h>
 
 #include "acautomation.h"
-
+//get word length
 int32_t get_utf_8_word_length(const char *str, size_t length)
 {
     if (length < 1) {
